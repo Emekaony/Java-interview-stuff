@@ -12,9 +12,4 @@ public class Main {
         Currency naira = Currency.getInstance("NGN");
         System.out.println(naira.getSymbol(nigerianLocale));
     }
-
-    public void say_hello(String firstname, String lastname) {
-        final String fullname = firstname + " " + lastname;
-        System.out.printf("Your full name is %s", fullname);
-    }
 }
